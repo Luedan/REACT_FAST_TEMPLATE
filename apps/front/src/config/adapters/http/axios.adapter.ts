@@ -12,9 +12,9 @@ import { HttpAdapter } from "./http.adapter";
 export class AxiosAdapter implements HttpAdapter {
   /**
    * AxiosInstance object to make HTTP requests.
-   * @private _axiosInstance
+   * @public _axiosInstance
    */
-  private _axiosInstance: AxiosInstance;
+  public _axiosInstance: AxiosInstance;
 
   /**
    * Constructor of the AxiosAdapter class.
